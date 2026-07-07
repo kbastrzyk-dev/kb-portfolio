@@ -22,7 +22,7 @@ export default function Projects() {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   return (
-    <section className="w-full bg-[#0a0a0a] px-4 py-24 md:px-12 lg:px-24 text-[#f3f4f6]">
+    <section className="w-full  px-4 py-24 md:px-12 lg:px-24 text-[#f3f4f6]">
       <div className="mb-12 border-b border-gray-800 pb-8">
         <h2 className="text-3xl font-light uppercase tracking-widest text-gray-400">
           Selected Works

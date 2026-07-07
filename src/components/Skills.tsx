@@ -45,7 +45,7 @@ const skills = [
 
 export default function Skills() {
   return (
-    <section className="w-full bg-[#0a0a0a] px-4 py-24 md:px-12 lg:px-24">
+    <section className="w-full  px-4 py-24 md:px-12 lg:px-24">
       <div className="mb-16 border-b border-gray-800 pb-8">
         <h2 className="text-3xl font-light uppercase tracking-widest text-gray-400">
           Tech Stack

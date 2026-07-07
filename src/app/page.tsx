@@ -17,7 +17,7 @@ export default function Home() {
   };
 
   return (
-    <main className="flex flex-col bg-[#0a0a0a]">
+    <main className="flex flex-col ">
       {/* Sekcja Hero (Powitalna) */}
       <section className="relative flex h-screen flex-col items-center justify-center overflow-hidden">
         {/* maska dla imienia */}
