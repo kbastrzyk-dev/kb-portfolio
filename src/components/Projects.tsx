@@ -9,12 +9,14 @@ const projectsList = [
     title: "ML Gym Predictor",
     category: "Machine Learning / Data",
     year: "2026",
+    link: "https://github.com/kbastrzyk-dev/ML-Gym-Predictor",
   },
   {
     id: 2,
-    title: "Audiotrekker",
-    category: "AI / Web App",
+    title: "garage_inventory",
+    category: "Full-Stack / Web App",
     year: "2026",
+    link: "https://github.com/kbastrzyk-dev/garage_inventory",
   },
 ];
 
@@ -46,9 +48,14 @@ export default function Projects() {
               transition={{ duration: 0.4, ease: [0.33, 1, 0.68, 1] }}
               className="flex flex-col"
             >
-              <h3 className="text-4xl font-bold tracking-tight md:text-6xl lg:text-7xl">
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noreferrer"
+                className="text-4xl font-bold tracking-tight transition-colors duration-300 hover:text-gray-200 md:text-6xl lg:text-7xl"
+              >
                 {project.title}
-              </h3>
+              </a>
               <span className="mt-2 text-sm font-medium tracking-wider text-gray-500 uppercase md:text-base">
                 {project.category}
               </span>
